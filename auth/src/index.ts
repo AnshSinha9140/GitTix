@@ -3,6 +3,8 @@ import {app} from './app'
 
 const start = async () => {
 
+  console.log('starting up auth!!!..............!!!!!!');
+
   if(!process.env.JWT_KEY) {
     throw new Error('Jwt not found');
   }
@@ -21,7 +23,7 @@ console.log('Connected to db');
  console.error(err);
 }
  app.listen(3000, () => {
-    console.log('listening on port 3000');
+    console.log('listening on port 3000!!!');
    });
 };
   
