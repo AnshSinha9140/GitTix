@@ -8,6 +8,6 @@ router.get('/api/tickets', async (req: Request, res: Response) => {
         orderId: undefined
     });
     res.send(tickets);
-})
+});
 
 export {router as indexTicketRouter};
