@@ -3,7 +3,7 @@ import {app} from './app'
 
 const start = async () => {
 
-  console.log('starting up auth!!!..............!!!!!!');
+  console.log('starting up auth!!!..............');
 
   if(!process.env.JWT_KEY) {
     throw new Error('Jwt not found');
