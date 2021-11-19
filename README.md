@@ -26,5 +26,5 @@
 ![1](https://github.com/AnshSinha9140/GitTix/blob/master/images/Desktop%20-%201.jpg)
 
 ## Published npm package 
-## npm i @asticketss/common
-(https://www.npmjs.com/package/@asticketss/common)
+### To install ->  npm i @asticketss/common
+https://www.npmjs.com/package/@asticketss/common
